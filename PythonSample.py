@@ -19,5 +19,3 @@ print("output data shape is:", dfout.shape)
 
 # set output data using call to pipe to SAS
 SAS.df2sd(dfout, output_table)
-
-SAS.submit('proc print data=work.pythonout;');
